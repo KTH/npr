@@ -17,7 +17,7 @@ h2 {	font-size: 14px; }
 .main {
 	position: relative;
 	margin: 0 auto;
-	width: 1000px;
+	width: 850px;
 	max-width: 100%;
 	min-height: 100%;
 }
@@ -46,7 +46,7 @@ header h1 {
 
 header .date-place {
 	font-size: 12px;
-	padding: 20px 0 0 50px;
+	padding: 20px 0 0 20px;
 	float: right;
 	color: #FFFFFF;
 }
@@ -147,7 +147,7 @@ header img {
 	margin: 10px;
 }
 
-.rTable { display: table; }
+.rTable { display: table; width: 100%; }
 .rTableRow, .rTableRowBold { display: table-row; }
 .rTableRowBold { font-weight: bold; }
 .rTableRowBold .rTableCell, .rTableRowBold .rTableCellTime {
@@ -156,9 +156,8 @@ header img {
 }
 .rTableCell, .rTableCellTime {
 	display: table-cell;
-	padding-right: 10px;
 }
-.rTableCellTime { width: 110px; }
+.rTableCellTime { width: 120px; }
 
 .speaker { font-size: 11px; }
 
@@ -174,7 +173,7 @@ footer {
 	border-bottom: 1px solid #959595;
 }
 
-@media (max-width: 515px) {
+@media (max-width: 490px) {
 	header .main-info {
 		width: 60%;
 	}
@@ -187,7 +186,7 @@ footer {
 	}
 }
 
-@media (min-width: 915px) {
+@media (min-width: 850px) {
 	header .menu {
 		clear: none;
 		float: right;
