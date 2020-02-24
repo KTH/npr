@@ -161,6 +161,25 @@ header img {
 
 .speaker { font-size: 11px; }
 
+.supporters {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.supporters .castor-logo {
+	width: auto;
+	height: 60px;
+}
+
+.supporters .kth-logo {
+	width: auto;
+	height: 80px;
+	padding-left: 60px;
+}
+
 footer {
 	position: absolute;
 	width: 100%;
@@ -171,6 +190,16 @@ footer {
 	background: #5c98c4;
 	border-top: 1px solid #959595;
 	border-bottom: 1px solid #959595;
+}
+
+@media (max-width: 400px) {
+	.supporters {
+		flex-direction: column;
+	}
+	.supporters .kth-logo {
+		padding-left: 0px;
+		padding-top: 10px;
+	}
 }
 
 @media (max-width: 490px) {
