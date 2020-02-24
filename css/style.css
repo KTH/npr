@@ -17,7 +17,7 @@ h2 {	font-size: 14px; }
 .main {
 	position: relative;
 	margin: 0 auto;
-	width: 850px;
+	width: 920px;
 	max-width: 100%;
 	min-height: 100%;
 }
@@ -46,7 +46,7 @@ header h1 {
 
 header .date-place {
 	font-size: 12px;
-	padding: 20px 0 0 20px;
+	padding: 20px 0 0 50px;
 	float: right;
 	color: #FFFFFF;
 }
@@ -202,7 +202,7 @@ footer {
 	}
 }
 
-@media (max-width: 490px) {
+@media (max-width: 515px) {
 	header .main-info {
 		width: 60%;
 	}
@@ -215,7 +215,7 @@ footer {
 	}
 }
 
-@media (min-width: 850px) {
+@media (min-width: 915px) {
 	header .menu {
 		clear: none;
 		float: right;
